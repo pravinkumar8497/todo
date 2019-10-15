@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+}
+header{
+    height: 48px;
+    width:100%;
+    background-color: #2878D7;
+    display: flex;
+}
+.toggle-open {
+    width: 290px;
+}
+.all-apps-icon{
+    width: 48px;
+    height: 48px;
+    background-color: #2878D7;
+    border: 0px;
+    outline: none;
+}
+.all-apps-icon img {
+    height: 20px;
+    width:20px;
+}
+.todo-link{
+    padding-top: 16px;
+    padding-left: 5px;
+    color: white;
+    height: 38px;
+    vertical-align: middle;
+}
+.to-do{
+    vertical-align: top;
+    margin: 0;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+}
+.all-apps-icon:hover{
+    background-color:#1B5D9A;
+    opacity:0.8;
+    border: 0px;
+    outline: none;
+}
+.header-search{
+    width:50%;
+    margin-left: 181px;
+}
+.header-search-box{
+     margin: 8px;
+     width:62%;
+     height:66%;
+     border-radius:2px;
+     margin-left:19.9%;
+     transition: background-color(0.1s);
+     background-color: #c3ddf8;
+     display: flex;   
+}
+.header-search-box:hover {
+    background-color: #ffffff;
+}
+.search-btn {
+    width: 45px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    align-items: stretch;   
+}
+.search-icon-img {
+    align-items: stretch;
+    color: #346fef;
+    vertical-align: middle;
+    line-height: inherit;
+    max-width: 90%;
+    max-height: 90%;
+}
+.header-search-input-box {
+    background-color: #c3ddf8;
+    font-family:inherit;
+    border-radius: 0px 2px 2px 0px;
+    width: 100%;
+    border: none;
+}
+.header-search-input-box:hover {
+    background-color: #ffffff;
+}
+.header-search-input-box::placeholder {
+    color: #346fef;  
+}
+.header-search-input-box:focus::placeholder {
+    color: gray;
+}
+.header-right-side{
+    float: right;
+    display: flex;
+    margin-left: auto;
+    flex-direction: row-reverse;
+    width:25%;
+    height:100%;
+}
+
+.header-right-side-options{
+    padding-top: 0px;
+    width: 48px;
+    cursor: pointer;
+    text-align:center;
+    height: inherit;
+}
+.option-icon {
+    height:inherit;
+    width:20px;
+    color:#ffffff;
+}
+.name-icon{
+    width:30px;
+    height:30px;
+    margin:10px 10px 10px 8px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #1EA301;
+    color:#ffffff;
+    border-radius: 50%;
+    font-size:16px;
+}
+#name-icon{
+    padding-top: 12px ;
+}
+.navBar {
+    display:flex;
+    height: 100%;
+}
+.nav{
+    position: relative;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    z-index: 1;
+    transition:.5s;
+    background-color: #f4f4f4;
+}
+.nav-small {
+    width: 50px;
+}
+.hamBurger{
+    margin: 23px 10px 34px 12px;
+    width: 25px;
+    height: 25px;
+}
+.hamBurger i {
+    color: #657afa;
+}
+.hamBurger:hover {
+    background-color: #ffffff;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.contact {
+    color: #77a829;
+}
+.home {
+    color: #6f74e7;
+}
+.new-list{
+    display: flex;
+}
+.list-icon {
+    line-height: 1.6rem;
+}
+.taskList{
+    padding: 0px 11px ;
+    display: flex;
+}
+.taskList i {
+    padding: 15px 0 0 0;
+}
+.subTasks p {
+    margin-left: 28px;
+}
+.subtask-listing {
+    display: flex;
+}
+.subTasks:hover {
+    background-color: #ededed;
+}
+.taskInput{
+    border:none;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.list-icon {
+    line-height: inherit;
+    vertical-align: middle;
+}
+.iconContent{
+    padding: 2px 0 0px 14px;
+    height:35px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.iconContent span{
+    line-height: 1.6rem;
+    margin-left: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.iconContent i {
+    margin: 0 0 0 0;
+}
+.iconContent:hover {
+    background-color: #ffffff;
+}
+.todo-link{
+    padding-top: 15px;
+    color: white;
+    height: 38px;
+    vertical-align: middle;
+}
+.taskInput{
+    border:none;
+    margin-left: 15px;
+    font-size: 15px;
+    height: 50px;
+ }
+ .task-content{
+    padding: 19px 20px 0px 25px;
+    width: 70%;
+    background-color: #ffffff;
+}
+.task-header{
+    height: 48px;
+    display: flex;
+    color: #346fef;
+}
+#task{
+    color: #346fef;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: auto;
+    line-height: inherit;
+}
+#task-header-option{
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    font-size: 16px;
+}
+.task-list{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;    
+    border-top: solid 1px #e3e3e3;
+    background: repeating-linear-gradient(#ffffff , #ffffff 50px, #e3e3e3 50px, #e3e3e3 51px);
+}
+.add-new-task{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.add-task-btn{
+    width: 30px;
+    height: 30px;
+    padding-top: 13px;
+
+}
+.add-task-input-box{
+    padding-left: 10px;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+}
+ .taskName {
+    width: 245px;
+    display: flex;
+    margin: 5px 0 5px 15px;
+    color: #6f74e7;
+}
+.taskName p{
+    margin: 0 0 0 25px;
+}
+#taskId {
+    visibility: hidden;
+}
+.taskName:hover {
+    background-color: #ffffff;
+}
+.sub-task-list {
+    display: flex;
+    line-height: 15px;
+    height: 50px;
+    width: 100%;
+}
+.sub-task-list:hover {
+    background-color: #ededed;
+}
+.sub-task-list span {
+    visibility: hidden;
+}
+#step-content {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin-left: 72%;
+    position: absolute;
+    display: none;
+    background-color: #f4f4f4;
+}
+.step-input-box {
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+}
+.share-icon {
+    padding: 0 0 0 75%;
+}
+.sort-icon {
+    padding: 0 0 0 0;
+}
+#sub-task-id {
+    display: none;
+}
+.steps-input {
+    width:330px;
+    margin: 10px 10px 10px 15px;
+    background-color: #ffffff;
+}
+.fav-subtask i {
+    margin: 15px 0 0 90px;
+}
+.add-my-day {
+    width: 330px;
+    height: 50px;
+    margin: 10px 10px 10px 15px;
+    background-color: #ffffff;
+    line-height: 50px;
+}
+.add-my-day i {
+    margin: 0 34px 0 19px;
+}
+#task-name {
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    color: #6f74e7;
+}
